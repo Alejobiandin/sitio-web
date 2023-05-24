@@ -1,0 +1,130 @@
+@media (min-width:700px){
+    body {
+        padding: 0 4em;
+    }
+    .contactanos-info{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .contactanos  > {
+        padding: 2em;
+    }
+     .contactanos-info h4{
+        text-align: center;
+
+     }
+     .contactanos-info ul{
+        text-align: center;
+     }
+     .contactanos-info p {
+        text-align: center;
+
+     }
+     .contactanos-info{
+        grid-template-columns: auto;
+     }
+
+    
+
+}
+
+@media (min-width:700px){
+
+    #somos-mosconi .container{
+
+        text-align: center;
+        padding: 200px 12px;
+        margin-top: -5%;
+    }
+    
+    .link{
+    
+        text-decoration: none;
+        color: #c7bbbb;
+        font-weight:bold; 
+    }
+    
+    .letra{
+        text-decoration: none;
+        text-decoration-color: #c7bbbb;
+    }
+    
+    
+    .footer-menu-container{
+        list-style-type: none;
+        color: #f2f2f2;
+        font-size: 18px;
+    }
+    
+    .menu-item{
+        margin: 1rem 1.5rem;
+        cursor: pointer;
+        opacity: 0.6;
+    }
+    
+    .menu-item:hover{
+        opacity: 1;
+    }
+    
+    
+    .us{
+        display: flex;
+    
+    }
+    .us-texto{
+        width: 60%;
+        padding: 0 10% 0 0 ;
+    
+    }
+    
+    .red-s-titulo{
+    
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #0853b5;
+    
+    }
+    .rs-iconos{
+        margin: 20px 0 ;
+    
+    
+    }
+    .rs-link{
+    
+        margin-top: auto;
+    
+    }
+    
+   
+}
+
+
+@media screen and (max-width:1000px){
+
+    .contenedor-imagenes{
+        
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:700px){
+    .contenedor-imagenes{
+        width: 90%;
+    }
+    .contenedor-imagenes .imagen{
+        width: 48%;
+    }
+}
+
+@media screen and (max-width:450px){
+    h1{
+        font-size:22px;
+    }
+    .contenedor-imagenes{
+        width: 98%;
+    }
+    .contenedor-imagenes .imagen{
+        width: 80%;
+    }
+}
+

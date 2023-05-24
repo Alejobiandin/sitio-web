@@ -1,0 +1,71 @@
+
+.footer{
+
+    width: 100%;
+    position:static;
+    bottom: 0;
+    left: 0;
+    padding: 2rem 8%;
+    background-color: #0e0e0e;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -10%;
+    
+
+}
+
+.logo{
+    height: 80px;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: red;
+}
+
+.social-icons-container, .footer-menu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.social-icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 1px solid #f2f2f2;
+    background-image: url(Resources/FacebookBlanco.png);
+    background-position: center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    margin:1rem;
+}
+
+.social-icon:hover{
+    background-color: #121212;
+    filter: invert(1);
+}
+
+.social-icon:nth-of-type(2){
+    background-image: url(../img/facebook_109862.png);
+}
+.social-icon:nth-of-type(3){
+    background-image: url(../img/instagam_109863.png);
+}
+.social-icon:nth-of-type(4){
+    background-image: url(../img/whatsapp_109861.png);
+}
+.social-icon:nth-of-type(1){
+    background-image: url(../img/github.png);
+}
+
+
+
+.copyright{
+    color: #f2f2f2;
+    opacity: 0.3;
+    text-align: center;
+}
+
